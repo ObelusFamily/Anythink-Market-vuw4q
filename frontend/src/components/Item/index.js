@@ -7,13 +7,8 @@ import marked from 'marked';
 import {
   ITEM_PAGE_LOADED,
   ITEM_PAGE_UNLOADED,
-<<<<<<< HEAD
-} from "../../constants/actionTypes";
-import placeholder from "../../imgs/placeholder.png";
-=======
 } from '../../constants/actionTypes';
 import placeholder from '../../imgs/placeholder.png';
->>>>>>> Fix broken image on item preview and item list
 
 const mapStateToProps = (state) => ({
   ...state.item,

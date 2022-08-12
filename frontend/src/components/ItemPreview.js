@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-import React from "react";
-import { Link } from "react-router-dom";
-import agent from "../agent";
-import { connect } from "react-redux";
-import { ITEM_FAVORITED, ITEM_UNFAVORITED } from "../constants/actionTypes";
-import placeholder from "../imgs/placeholder.png";
-=======
 import React from 'react';
 import { Link } from 'react-router-dom';
 import agent from '../agent';
 import { connect } from 'react-redux';
 import { ITEM_FAVORITED, ITEM_UNFAVORITED } from '../constants/actionTypes';
 import placeholder from '../imgs/placeholder.png';
->>>>>>> Fix broken image on item preview and item list
 
 const mapDispatchToProps = (dispatch) => ({
   favorite: (slug) =>
